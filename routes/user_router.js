@@ -12,5 +12,7 @@ router.delete('/users/:id', userController.delete);
 
 router.post('/getAllUserWithPagination', userController.getAllUserWithPagination);
 
+router.post('/newSubTest', userController.getAllUserWithPagination);
+
 
 module.exports = router;
