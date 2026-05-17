@@ -7,12 +7,11 @@ router.get('/users', userController.getAll);
 router.get('/users/:id', userController.getOne);
 router.put('/users/:id', userController.update);
 
+router.get('/serverStatus', userController.serverStatus);
 
 router.delete('/users/:id', userController.delete);
 
 router.post('/getAllUserWithPagination', userController.getAllUserWithPagination);
-
-router.post('/newSubTest', userController.getAllUserWithPagination);
 
 
 module.exports = router;

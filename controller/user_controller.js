@@ -10,6 +10,13 @@ class UserController {
         }
     }
 
+    async serverStatus(req, res){
+         res.status(200).json({
+            "status":200,
+            "message":"server run properly"
+         });
+    }
+
     async getAll(req, res) {
         try {
             const users = await userService.getAllUsers();
