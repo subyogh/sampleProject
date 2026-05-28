@@ -11,10 +11,9 @@ class UserController {
     }
 
     async serverStatus(req, res){
-        console.log("jkkjkjkj")
          res.status(200).json({
             "status":200,
-            "message":"server run properlydsfsdfsdfds",
+            "message":"server run properly",
             "fttp":"connet"
          });
     }
