@@ -11,6 +11,10 @@ app.use(cors({
 app.use(express.json());
 app.use('/api', userRoutes);
 
+app.get('/', (req, res) => {
+  res.status(200).send('OK');
+});
+
 mongoose.connect('mongodb://localhost:27017/userDB', {
     useNewUrlParser: true,
     useUnifiedTopology: true

@@ -15,7 +15,7 @@ class UserController {
          res.status(200).json({
             "status":200,
             "message":"server run properlydsfsdfsdfds",
-            "fttp":"connet"
+            // "fttp":"connet"
          });
     }
 
