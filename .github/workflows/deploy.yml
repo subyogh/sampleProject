@@ -22,4 +22,4 @@ jobs:
             cd /home/ec2-user/sampleProject
             git pull origin master
             npm install
-            pm2 restart index
+            sudo pm2 restart index
