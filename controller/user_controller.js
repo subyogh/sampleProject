@@ -12,6 +12,7 @@ class UserController {
 
     async serverStatus(req, res){
         console.log("jkkjkjkj")
+        console.log("CI/CD Test");
          res.status(200).json({
             "status":200,
             "message":"server run properlydsfsdfsdfds",
