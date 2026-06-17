@@ -13,5 +13,7 @@ router.delete('/users/:id', userController.delete);
 
 router.post('/getAllUserWithPagination', userController.getAllUserWithPagination);
 
+router.get('/serverStatus01', userController.serverStatus);
+
 
 module.exports = router;
